@@ -4,6 +4,10 @@ plugins {
     id 'application'
 }
 
+application {
+    mainClassName = 'ru.evtukhov.ru.evtukhov.ApplicationKt.module'
+}
+
 group 'org.example'
 version '1.0-SNAPSHOT'
 
